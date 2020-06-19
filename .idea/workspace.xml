@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ORB_SLAM2_modules" targetName="ComputeKeyPointsOctTree" />
+      <config projectName="ORB_SLAM2_modules" targetName="ORBextractor" />
+      <config projectName="ORB_SLAM2_modules" targetName="test" />
+      <config projectName="ORB_SLAM2_modules" targetName="lib_ORB_SLAM2_modules_ComputeKeyPointsOcTree" />
+      <config projectName="ORB_SLAM2_modules" targetName="Pyramid" />
+      <config projectName="ORB_SLAM2_modules" targetName="readSettings" />
+      <config projectName="ORB_SLAM2_modules" targetName="lib_ORB_SLAM2_modules_ORBextractor" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82feda00-839d-480f-baa9-4dee5577de1a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPointsOctTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#140#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/demo_ForTest.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/DistributeOctTree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#2#0" />
+                <element signature="e#812#2323#0" />
+                <element signature="e#2326#11195#0" />
+                <element signature="e#11199#11521#0" />
+                <element signature="e#11720#11732#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33858">
+              <caret line="1782" column="12" selection-start-line="1782" selection-start-column="12" selection-end-line="1782" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/readSettings.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPointsOctTree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1824">
+              <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#2#0" />
+                <element signature="e#7642#7693#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/demo_ComputeKeyPointsOctTree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2527">
+              <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>computeDescriptors</find>
+      <find>pattern</find>
+      <find>scale</find>
+      <find>mnFeaturesPerLevel</find>
+      <find>minThFAST</find>
+      <find>scaledPatchSize</find>
+      <find>mvScaleFactor</find>
+      <find>nfeatures</find>
+      <find>allKeypoints</find>
+      <find>vSizeAndPointerToNode</find>
+      <find>vpIniNodes</find>
+      <find>drawKeypoints</find>
+      <find>DrawKey</find>
+      <find>readSettings</find>
+      <find>rectangle</find>
+      <find>computeHistQuantil</find>
+      <find>createcreatecreate</find>
+      <find>create</find>
+      <find>scalar</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/myORBextractor.h" />
+        <option value="$PROJECT_DIR$/myORBextractor.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/../hw2/Compare/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ORBextractor.cpp" />
+        <option value="$PROJECT_DIR$/Pyramid.cpp" />
+        <option value="$PROJECT_DIR$/demo_Pyramid.cpp" />
+        <option value="$PROJECT_DIR$/demo_ORBextractor.cpp" />
+        <option value="$PROJECT_DIR$/ORBextractor/myORBextractor.cpp" />
+        <option value="$PROJECT_DIR$/common_include.h" />
+        <option value="$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPoints.cpp" />
+        <option value="$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPointsOctTree.h" />
+        <option value="$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPointsOctTree.cpp" />
+        <option value="$PROJECT_DIR$/demo_ForTest.cpp" />
+        <option value="$PROJECT_DIR$/demo_ComputeKeyPointsOctTree.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/modules/demo_Pyramid.cpp" />
+        <option value="$PROJECT_DIR$/modules/demo_ComputeKeyPointsOctTree.cpp" />
+        <option value="$PROJECT_DIR$/modules/readSettings.cpp" />
+        <option value="$PROJECT_DIR$/ComputeKeyPointsOctTree/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/modules/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ORBextractor/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ComputeKeyPointsOctTree/DistributeOctTree.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="50" />
+    <option name="y" value="-4" />
+    <option name="width" value="1871" />
+    <option name="height" value="1085" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ORB_SLAM2_modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ORB_SLAM2_modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ComputeKeyPointsOctTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ORB_SLAM2_modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="dates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ORB_SLAM2_modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ORB_SLAM2_modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ORBextractor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw6/TEST/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ComputeKeyPointsOctTree" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Pyramid">
+    <configuration name="ComputeKeyPointsOctTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="ComputeKeyPointsOctTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_modules" RUN_TARGET_NAME="ComputeKeyPointsOctTree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORBextractor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="ORBextractor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_modules" RUN_TARGET_NAME="ORBextractor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pyramid" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="Pyramid" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_modules" RUN_TARGET_NAME="Pyramid">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib_ORB_SLAM2_modules_ComputeKeyPointsOcTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="lib_ORB_SLAM2_modules_ComputeKeyPointsOcTree" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib_ORB_SLAM2_modules_ORBextractor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="lib_ORB_SLAM2_modules_ORBextractor" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="readSettings" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="readSettings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_modules" RUN_TARGET_NAME="readSettings">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_modules" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_modules" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.lib_ORB_SLAM2_modules_ComputeKeyPointsOcTree" />
+      <item itemvalue="Application.ComputeKeyPointsOctTree" />
+      <item itemvalue="Application.ORBextractor" />
+      <item itemvalue="Application.Pyramid" />
+      <item itemvalue="Application.readSettings" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.lib_ORB_SLAM2_modules_ORBextractor" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82feda00-839d-480f-baa9-4dee5577de1a" name="Default Changelist" comment="" />
+      <created>1580837007146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580837007146</updated>
+      <workItem from="1580837008730" duration="14719000" />
+      <workItem from="1580906067843" duration="4284000" />
+      <workItem from="1580922963320" duration="1179000" />
+      <workItem from="1580969324763" duration="10998000" />
+      <workItem from="1581002734050" duration="18000" />
+      <workItem from="1581002774328" duration="284000" />
+      <workItem from="1581003075624" duration="8885000" />
+      <workItem from="1581150527395" duration="27536000" />
+      <workItem from="1581252142340" duration="32882000" />
+      <workItem from="1581347074710" duration="34277000" />
+      <workItem from="1582031087724" duration="13000" />
+      <workItem from="1582176100797" duration="298000" />
+      <workItem from="1584542380648" duration="630000" />
+      <workItem from="1584597482280" duration="14000" />
+      <workItem from="1584709894784" duration="11000" />
+      <workItem from="1584709908466" duration="2176000" />
+      <workItem from="1584712680377" duration="7792000" />
+      <workItem from="1584762369276" duration="614000" />
+      <workItem from="1584966849511" duration="265000" />
+      <workItem from="1585041195397" duration="1613000" />
+      <workItem from="1585159245878" duration="1663000" />
+      <workItem from="1585985859225" duration="3732000" />
+      <workItem from="1586002253905" duration="19000" />
+      <workItem from="1586002743717" duration="1435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="155337000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="-4" width="1871" height="1085" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5800933" visible="true" weight="0.117517844" />
+      <window_info id="Structure" order="1" sideWeight="0.41990668" side_tool="true" weight="0.15705128" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.17148982" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22185062" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1886388" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.2419175" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16827439" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.2561629" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.fuse_hidden0000a6b500000003" />
+    <entry file="file://$PROJECT_DIR$/myORBextractor.cpp" />
+    <entry file="file://$PROJECT_DIR$/myORBextractor.h" />
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/hal/interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hw2/Compare/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="1395" column="18" selection-start-line="1395" selection-start-column="18" selection-end-line="1395" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/features2d.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1202" column="18" selection-start-line="1202" selection-start-column="18" selection-end-line="1202" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORBextractor/demo_ForTest.cpp" />
+    <entry file="file:///usr/include/c++/5/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1300" column="6" lean-forward="true" selection-start-line="1300" selection-start-column="6" selection-end-line="1300" selection-end-column="6" />
+          <folding>
+            <element signature="e#43300#43327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/list.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="149" column="7" lean-forward="true" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="887" column="12" selection-start-line="887" selection-start-column="12" selection-end-line="887" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/base.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="655" column="19" selection-start-line="655" selection-start-column="19" selection-end-line="655" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/demo_ComputeKeyPointsOctTree.cpp" />
+    <entry file="file://$PROJECT_DIR$/demo_ORBextractor.cpp" />
+    <entry file="file://$PROJECT_DIR$/demo_Pyramid.cpp" />
+    <entry file="file://$PROJECT_DIR$/demo_ForTest.cpp" />
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="322" column="18" selection-start-line="322" selection-start-column="18" selection-end-line="322" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/common_include.h" />
+    <entry file="file://$PROJECT_DIR$/ORBextractor/myORBextractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#47#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dates/EuRoC.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORBextractor/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/demo_Pyramid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/demo_ORBextractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORBextractor/myORBextractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15846">
+          <caret line="834" column="57" selection-start-line="834" selection-start-column="51" selection-end-line="834" selection-end-column="57" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPointsOctTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#140#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/demo_ForTest.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/DistributeOctTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#812#2323#0" />
+            <element signature="e#2326#11195#0" />
+            <element signature="e#11199#11521#0" />
+            <element signature="e#11720#11732#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33858">
+          <caret line="1782" column="12" selection-start-line="1782" selection-start-column="12" selection-end-line="1782" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/readSettings.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/ComputeKeyPointsOctTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#7642#7693#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/demo_ComputeKeyPointsOctTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2527">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ComputeKeyPointsOctTree/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
